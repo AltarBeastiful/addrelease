@@ -17,7 +17,7 @@ import tempfile
 HTML_HEAD = """<!doctype html>
 <meta charset="UTF-8">
 <title>Add Cluster As Release</title>
-<form action="http://musicbrainz.org/release/add" method="post">
+<form action="https://musicbrainz.org/release/add" method="post">
 """
 HTML_INPUT = """<input type="hidden" name="%s" value="%s">
 """
